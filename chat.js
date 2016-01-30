@@ -19,7 +19,7 @@ function makeSocket()
         if(msg_object.chat_msg){
          
             var chat_area = document.getElementById('chatArea');
-            chat_area.innerHTML += '<b>' + msg_object.from + '</b><br>' + msg_object.chat_msg + '<br>';
+            chat_area.innerHTML += '<b style="font-size: 18px">' + msg_object.from + '</b><br>' + msg_object.chat_msg + '<br>';
         }
         if(msg_object.users){
 
