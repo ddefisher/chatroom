@@ -80,6 +80,7 @@ html, body {
   margin: 0;
   background-color: #354973;
   box-sizing: border-box;
+  border-right: 1px solid grey;
   padding: 0;
 }
 #userHeader{
